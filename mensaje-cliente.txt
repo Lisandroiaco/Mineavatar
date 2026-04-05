@@ -1,0 +1,29 @@
+Buenas, te comparto una demo funcional que preparé para mostrar que entiendo este tipo de plataformas.
+
+La base está hecha en PHP + HTML + CSS + JS y está organizada para conectarse luego con MySQL sin problema.
+
+La demo incluye:
+- Homepage estilo catálogo de skins
+- Búsqueda de skins/perfiles
+- Búsqueda viva preparada para consultar Mojang
+- Página de detalle de skin
+- Relación entre una skin y múltiples perfiles premium
+- Sección de capas/capes
+- Sección de servidores
+- Páginas About, Contact, Login y Register
+- Persistencia opcional en MySQL con esquema incluido
+- Animaciones y diseño más moderno para demostrar acabado visual
+
+Entiendo la lógica principal del proyecto:
+1. El usuario busca un nick/UUID/aspect.
+2. La plataforma consulta la API de Mojang.
+3. Se guarda o actualiza en MySQL la relación entre perfil y skin.
+4. Esa información se refleja en homepage, listados y páginas individuales.
+5. También se puede mostrar cuántos perfiles premium usan la misma skin.
+
+Esta demo está hecha para probar manejo del producto, estructura full stack y capacidad de réplica/mejora visual.
+Si avanzamos, el siguiente paso sería conectar esta base al backend real, MySQL y la API de Mojang para dejarlo productivo.
+
+Configuración rápida:
+- Si quieren probarla en modo demo, abre la web tal como está.
+- Si quieren activarla con MySQL, copien `.env.example` a `.env`, completen credenciales y ejecuten el `schema.sql`.
